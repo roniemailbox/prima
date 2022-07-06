@@ -5,7 +5,7 @@ class Login extends CI_Controller
     function __construct(){
         parent::__construct();
         $this->load->model('Model_app');
-        $this->load->model('umum/Bis_model');
+        $this->load->model('Bis_model');
     }
 
     function index(){
